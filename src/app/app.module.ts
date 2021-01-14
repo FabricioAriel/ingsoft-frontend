@@ -31,8 +31,8 @@ import { from } from 'rxjs';
 import { PaymentComponent } from './components/user/payment/payment.component';
 import { OrderaddComponent } from './components/createOrder/orderadd/orderadd.component';
 import { FormComponent } from './components/voucher/listvoucher/form.component';
-
 import { GetproductsComponent } from './components/product/getproducts/getproducts.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -55,7 +55,8 @@ import { GetproductsComponent } from './components/product/getproducts/getproduc
     GetproductsComponent,
     PaymentComponent,
     OrderaddComponent,
-    FormComponent
+    FormComponent,
+    HomeComponent
 
   ],
   imports: [

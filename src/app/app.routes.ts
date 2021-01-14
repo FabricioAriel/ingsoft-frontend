@@ -15,11 +15,14 @@ import { GetproductsComponent} from './components/product/getproducts/getproduct
 import { PaymentComponent } from './components/user/payment/payment.component';
 import { OrderaddComponent } from './components/createOrder/orderadd/orderadd.component';
 import { FormComponent } from './components/voucher/listvoucher/form.component';
+import { HomeComponent } from './home/home.component';
+
 
 
 
 const APP_ROUTES: Routes = [
     { path: 'category/catalogue', component: CatalogueComponent},
+    { path: 'home', component: HomeComponent },
     { path: 'user/signup', component: SignupComponent },
     { path: 'user/profile', component: ProfileComponent },
     { path: 'user/orders', component: OrdersComponent },
@@ -36,7 +39,7 @@ const APP_ROUTES: Routes = [
     { path: 'listvoucher/form', component: FormComponent},
     { path: 'listvoucher/form/:voucherId', component: FormComponent},
 
-    { path: '**', pathMatch: 'full', redirectTo: 'category/catalogue' }//redirectTo: 'home'
+    { path: '**', pathMatch: 'full', redirectTo: 'home' }//redirectTo: 'home'
 ];
 
 export const APP_ROUTING = RouterModule.forRoot(APP_ROUTES);
