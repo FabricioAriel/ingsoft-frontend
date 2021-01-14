@@ -33,6 +33,7 @@ import { OrderaddComponent } from './components/createOrder/orderadd/orderadd.co
 import { FormComponent } from './components/voucher/listvoucher/form.component';
 import { GetproductsComponent } from './components/product/getproducts/getproducts.component';
 import { HomeComponent } from './home/home.component';
+import { CarriComponent } from './carri/carri.component';
 
 
 
@@ -56,7 +57,8 @@ import { HomeComponent } from './home/home.component';
     PaymentComponent,
     OrderaddComponent,
     FormComponent,
-    HomeComponent
+    HomeComponent,
+    CarriComponent
 
   ],
   imports: [
